@@ -7,15 +7,15 @@ import urllib.parse
 
 load_dotenv()
 
-parsedPassword = urllib.parse.quote_plus(os.getenv('MYSQL_PASSWORD'))
+parsed_password = urllib.parse.quote_plus(os.getenv('MYSQL_PASSWORD'))
 
 username = os.getenv('MYSQL_USERNAME')
-password = parsedPassword
-db_name = "ChallengeApplication"
-host = "localhost"
-port = "3306"
+password = parsed_password
+db_name = os.getenv('MYSQL_DATABASE')
+host = os.getenv('MYSQL_HOST')
+port = os.getenv('MYSQL_PORT')
 
-URL_DATABASE = f'mysql+pymysql://{username}:{password}@{host}/{db_name}'
+URL_DATABASE = f'mysql+pymysql://{username}:{password}@{host}:{port}/{db_name}'
 
 engine = create_engine(URL_DATABASE)
 

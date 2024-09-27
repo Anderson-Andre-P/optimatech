@@ -1,19 +1,19 @@
 from sqlalchemy import Boolean, Column, Integer, String, Float, DateTime
 from database import Base
 
-class User(Base):
-    __tablename__ = 'users'
+# class User(Base):
+#     __tablename__ = 'users'
 
-    id = Column(Integer, primary_key=True, index=True)
-    username = Column(String(50))
+#     id = Column(Integer, primary_key=True, index=True)
+#     username = Column(String(50))
 
-class Post(Base):
-    __tablename__ = 'posts'
+# class Post(Base):
+#     __tablename__ = 'posts'
 
-    id  = Column(Integer, primary_key=True, index=True)
-    title = Column(String(40))
-    content = Column(String(40))
-    user_id = Column(Integer)
+#     id  = Column(Integer, primary_key=True, index=True)
+#     title = Column(String(40))
+#     content = Column(String(40))
+#     user_id = Column(Integer)
 
 class ProcessData(Base):
     __tablename__ = 'process_data'
