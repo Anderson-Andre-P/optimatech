@@ -1,0 +1,3 @@
+backend/.env
+backend/API/__pycache__
+backend/API/env
