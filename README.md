@@ -26,7 +26,7 @@ Este projeto foi desenvolvido como parte do desafio para a vaga de Desenvolvedor
 
 ## :link: Demo
 
-<p>Uma demonstração do funcionamento da aplicação está disponível <ahref="https://github.com/Anderson-Andre-P/optimatech/blob/master/apresenta%C3%A7%C3%A3o.40">AQUI</a></p>
+<p>Uma demonstração do funcionamento da aplicação está disponível <a href="https://github.com/Anderson-Andre-P/optimatech/blob/master/apresenta%C3%A7%C3%A3o.40">AQUI</a></p>
 
 ## Funcionalidades Criadas
 
